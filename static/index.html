@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaFe Api</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:wght@400;600&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+      <header>
+        <h1 class="tiutlo">
+            Cafe api
+        </h1>
+      </header>
+      <main>
+        <h2 class="titulo titulo-inicio">¿Como usarlo?</h2>
+        <div class="fetch-container">
+            <code>
+               <span class="fuction">fetch</span>(<span class="url">'https://cafeapi.onrender.com/cafe'</span> ) <br>
+                .<span class="fuction">then</span>(response <span class="equal">=&gt;</span> response.<span class="fuction">json()</span>) <br>
+                .<span class="fuction">then</span>(data <span class="equal">=&gt;</span> console.<span class="fuction">log</span>(data))
+            </code>
+           
+        </div>
+          <h2 class="titulo" >Rutas de los productos </h2>
+          <div class="container">
+            <a href="/cafe">/Café</a>
+            <a href="/capuchino">/Capuchino</a>
+            <a href="/cafeconleche">/Café con leche </a>
+            <a href="/cafeespecial">/Café especial</a>
+            <a href="/te">/Té</a>
+          </div>
+          
+      </main>
+      <div class="footer-container">
+        <footer>
+            <h6>Desarrollado por Eliud Pinto</h6>
+        </footer>
+    </div>
+</body>
+</html>

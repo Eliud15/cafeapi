@@ -1,0 +1,105 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden !important;
+}
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  /* background-image: url('https://img.freepik.com/free-photo/blur-coffee-cafe-shop-restaurant-with-bokeh-background_1421-472.jpg?w=740&t=st=1678368272~exp=1678368872~hmac=342e65abe98110c2796a63cf8757934dd9aacf8b4f853477e64ac96781349cbc');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+  background-color: #000000;
+}
+h1,h2,a{
+    font-family: "Caveat", cursive;
+}
+.tiutlo {
+color: #ffffff;
+font-size: 5em;
+  margin: 0;
+  text-align: center;
+  
+}
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2em;
+}
+.titulo-inicio{
+    text-align: left;
+}
+.fetch-container {
+    margin: 30px;
+    width: auto;
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 10px;
+    overflow-y: auto;
+    color: #ffffff;
+    font-size: 1.5em;
+}
+.fuction {
+    color: #f08d49;
+}
+.equal {
+    color: #67cdcc;
+}
+.url {
+    color: #7ec699;
+}
+.container{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 30px;
+}
+a{
+    margin: 40px;
+    font-size: 1.5em;
+    color: #000000;
+    font-weight: bolder;
+}
+
+.footer-container{
+    padding-bottom: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0 ;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px;
+   
+}
+h6{
+    position: relative;
+    width: 100%;
+   /* height: 50px;*/
+   padding: 2em;
+    color: #ffffff;
+    transform: translateY(100px); background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
