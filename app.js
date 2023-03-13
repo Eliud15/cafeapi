@@ -1,7 +1,7 @@
 const EXPRESS = require('express');
 const  CORS = require('cors')
-APP.use(CORS());
 const APP = EXPRESS();
+APP.use(CORS());
 const PATH = require('path')
 const {productos} = require('./data/data');
 
