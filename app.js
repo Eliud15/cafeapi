@@ -1,4 +1,6 @@
 const EXPRESS = require('express');
+const  CORS = require('cors')
+APP.use(CORS());
 const APP = EXPRESS();
 const PATH = require('path')
 const {productos} = require('./data/data');
@@ -9,7 +11,6 @@ const {Capuchino} = require('./Routes/Capuchino');
 const {CafeConLeche} = require('./Routes/CafeConLeche');
 const {CafeEspeciales} = require('./Routes/CafeEspeciales');
 const {Te} = require('./Routes/Te');
-
 
 APP.use(EXPRESS.static(__dirname + '/static'));
 
